@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Applicant Notifications</title>
+  <link rel="stylesheet" href="Applicant_notifications_page.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+  <main class="notifications-page">
+
+    <header class="topbar">
+      <section class="topbar-title">
+        <h1>OpportuNet</h1>
+      </section>
+
+      <nav class="topbar-actions" aria-label="User actions">
+        <button type="button" aria-label="Notifications">
+          <i class="glyphicon glyphicon-bell"></i>
+        </button>
+        <button type="button" aria-label="Settings">
+          <i class="glyphicon glyphicon-cog"></i>
+        </button>
+        <button type="button" class="profile-badge" aria-label="Profile">PM</button>
+      </nav>
+    </header>
+
+    <section class="page-banner" aria-labelledby="notifications-heading">
+      <h2 id="notifications-heading">Notifications</h2>
+      <p>Stay updated with your applications, opportunities, and profile activity.</p>
+    </section>
+
+    <section class="notification-tools" aria-label="Notification tools">
+      <input type="search" placeholder="Search notifications..." aria-label="Search notifications">
+      <button type="button">Mark all as read</button>
+    </section>
+
+    <section class="notifications-panel" aria-labelledby="recent-notifications">
+      <header class="panel-header">
+        <h3 id="recent-notifications">Recent Notifications</h3>
+        <p>View your latest updates</p>
+      </header>
+
+      <section class="notification-list" aria-label="List of notifications">
+
+        <article class="notification-card unread">
+          <header class="notification-header">
+            <h4>Application Submitted</h4>
+            <time datetime="2026-04-17T10:30">10:30 AM</time>
+          </header>
+          <p>Your application for the Software Development Learnership at TechSA was submitted successfully.</p>
+        </article>
+
+        <article class="notification-card unread">
+          <header class="notification-header">
+            <h4>New Opportunity Posted</h4>
+            <time datetime="2026-04-17T08:15">8:15 AM</time>
+          </header>
+          <p>A new internship in Johannesburg has been posted that matches your interests.</p>
+        </article>
+
+        <article class="notification-card">
+          <header class="notification-header">
+            <h4>Profile Incomplete</h4>
+            <time datetime="2026-04-16T15:45">Yesterday</time>
+          </header>
+          <p>Please update your qualifications and biography to improve your profile visibility.</p>
+        </article>
+
+        <article class="notification-card">
+          <header class="notification-header">
+            <h4>Application Shortlisted</h4>
+            <time datetime="2026-04-15T11:20">2 days ago</time>
+          </header>
+          <p>You have been shortlisted for the Data Analyst Internship at Insight Analytics.</p>
+        </article>
+
+        <article class="notification-card">
+          <header class="notification-header">
+            <h4>Reminder</h4>
+            <time datetime="2026-04-14T09:00">3 days ago</time>
+          </header>
+          <p>Complete your profile to unlock more personalised opportunity recommendations.</p>
+        </article>
+
+      </section>
+    </section>
+
+  </main>
+</body>
+</html>
